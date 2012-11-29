@@ -3,7 +3,8 @@
  * This calculator takes as input a space-delimited infix expression (e.g. 3 + 4 * 7),
  * which will be converted to postfix notation and evaluate.
  * Support 4 binary operators: +, -, *, /.
- * It can also handle the unary negation operator (-).
+ * It can also handle the unary negation operator (-). Changing the 'PARSE_PARENS' to 1 
+ * will make the program support parenthesis. 
  * E.g: 
  * 3 * 4 - 5 => 7
  * 2 - -3 => 5
